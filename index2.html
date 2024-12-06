@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+    <script src="js/app2.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h2>Selecciona una marca de vehículo</h2>
+  
+    <!-- Lista desplegable de marcas -->
+    <select id="marcas" onchange="mostrarFoto()">
+        <option value="">Selecciona una marca</option>
+        <option value="toyota">Toyota</option>
+        <option value="ford">Ford</option>
+        <option value="bmw">BMW</option>
+    </select>
+
+    <h3>Modelo de vehículo</h3>
+    <!-- Lista desplegable de modelos (vacía por defecto) -->
+    <select id="modelos">
+        <option value="">Selecciona un modelo</option>
+    </select>
+
+    <h3>Foto del vehículo</h3>
+    <!-- Contenedor para mostrar la imagen del vehículo -->
+    <div id="foto">
+        <img id="fotoCarro" src="" alt="Imagen del vehículo" style="display:none; width: 300px; height: 200px;">
+    </div>
+</body>
+</html>
